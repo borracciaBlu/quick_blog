@@ -7,7 +7,7 @@
 
  <h2>Comments</h2>
  <div id="comments">
-   <%= render :partial => @post.comments %>
+  <%= render :partial => @post.comments %>
  </div>
 
  <%= form_for [@post, Comment.new] do |f| %>
